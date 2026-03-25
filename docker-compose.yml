@@ -1,0 +1,9 @@
+services:
+  app:
+    platform: linux/amd64
+    build: .
+    container_name: qola_app
+    volumes:
+      - .:/app
+    ports:
+      - "5001:5001"
