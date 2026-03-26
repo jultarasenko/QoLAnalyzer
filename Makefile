@@ -4,4 +4,4 @@ build:
 	bash build.sh 
 
 run:
-	docker-compose -f docker-compose.yml up
+	docker compose -f docker-compose.yml up
